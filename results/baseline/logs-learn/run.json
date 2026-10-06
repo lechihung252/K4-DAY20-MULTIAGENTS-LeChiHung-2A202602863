@@ -1,0 +1,69 @@
+{
+  "task": "logs-learn",
+  "condition": "baseline",
+  "role": "learn",
+  "error": "GraphRecursionError: Recursion limit of 40 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT",
+  "timestamp": "2026-10-06T09:41:59.649038+00:00",
+  "skills_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 669.9,
+  "tokens": {
+    "input": 520882,
+    "output": 48476,
+    "total": 569358
+  },
+  "tool_calls": 20,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.0,
+  "passed": 0,
+  "total": 9,
+  "checks": [
+    {
+      "name": "valid_structure",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "entry_count",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "timestamps_utc",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "exception_fields",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "repeat_counts",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "counts_by_service",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "rule_service_names",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "rule_sorted_errors",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    },
+    {
+      "name": "rule_schema_header",
+      "passed": false,
+      "detail": "JSONDecodeError: Expecting ',' delimiter: line 1 column 9504 (char 9503)"
+    }
+  ]
+}

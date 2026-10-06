@@ -6,3 +6,5 @@ __pycache__/
 *.egg-info/
 # Tài liệu và mã dành cho giảng viên (đáp án, bản cài đặt tham chiếu, bộ sinh dữ liệu). Chỉ giữ cục bộ.
 instructor/
+.env.bak*
+results/_invalid/
