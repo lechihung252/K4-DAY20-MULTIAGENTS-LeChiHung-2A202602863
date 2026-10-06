@@ -1,0 +1,64 @@
+{
+  "task": "data-learn",
+  "condition": "skills-auto",
+  "role": "learn",
+  "error": "GraphRecursionError: Recursion limit of 40 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT",
+  "timestamp": "2026-10-06T14:18:45.850783+00:00",
+  "skills_sha256": "ab5200ed1860d42cb0c7c7d0756331da8baf75ea4967cb331e23f1d393000ca7",
+  "seconds": 115.2,
+  "tokens": {
+    "input": 232722,
+    "output": 7714,
+    "total": 240436
+  },
+  "tool_calls": 20,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.0,
+  "passed": 0,
+  "total": 8,
+  "checks": [
+    {
+      "name": "north_q1_revenue",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_x/v1zlzd692ng4dfpwq_90xgwh0000gn/T/lab-data-learn-x0ti3fzp/workspace/answer.json'"
+    },
+    {
+      "name": "north_q1_orders",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_x/v1zlzd692ng4dfpwq_90xgwh0000gn/T/lab-data-learn-x0ti3fzp/workspace/answer.json'"
+    },
+    {
+      "name": "top_region",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_x/v1zlzd692ng4dfpwq_90xgwh0000gn/T/lab-data-learn-x0ti3fzp/workspace/answer.json'"
+    },
+    {
+      "name": "missing_amount_orders",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_x/v1zlzd692ng4dfpwq_90xgwh0000gn/T/lab-data-learn-x0ti3fzp/workspace/answer.json'"
+    },
+    {
+      "name": "duplicate_rows_removed",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_x/v1zlzd692ng4dfpwq_90xgwh0000gn/T/lab-data-learn-x0ti3fzp/workspace/answer.json'"
+    },
+    {
+      "name": "rule_money_in_cents",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_x/v1zlzd692ng4dfpwq_90xgwh0000gn/T/lab-data-learn-x0ti3fzp/workspace/answer.json'"
+    },
+    {
+      "name": "rule_meta_block",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/_x/v1zlzd692ng4dfpwq_90xgwh0000gn/T/lab-data-learn-x0ti3fzp/workspace/answer.json'"
+    },
+    {
+      "name": "rule_clean_csv",
+      "passed": false,
+      "detail": "RULE: write workspace/clean.csv with the header order_id,timestamp_utc,region,amount_cents; one row per distinct order with a known amount; timestamp_utc as YYYY-MM-DDTHH:MM:SSZ (UTC); region in canonical spelling (North, South, East, West); amount in integer cents."
+    }
+  ]
+}
